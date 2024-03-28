@@ -1,0 +1,45 @@
+site_name: utop1an
+site_author: Chunjie Liu
+site_description: My Wiki Site, notebook....
+
+nav: 
+  - Planning: 
+    - Classical Planning: planning/classical.md
+    - Narrative Planning: planning/narrative.md
+    - HTN: planning/hier.md
+
+plugins:
+  - search
+
+extra:
+  generator: false
+
+theme: 
+  custom_dir: docs/overrides
+  name: material
+  features: 
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tracking
+
+    - search.highlight
+    - search.share
+    - search.suggest
+  font:
+    text: Nunito
+    code: Oxygen Mono
+  palette: 
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
