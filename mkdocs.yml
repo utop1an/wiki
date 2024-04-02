@@ -10,6 +10,11 @@ nav:
 
 plugins:
   - search
+  - bibtex
+    bibfile: 'refs.bib'
+
+markdown_extensions:
+  - footnotes
 
 extra:
   generator: false
